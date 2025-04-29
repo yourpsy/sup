@@ -1,85 +1,59 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Психолог Ганна</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-blue-50 text-gray-800 font-sans leading-relaxed">
+<body class="bg-blue-50 text-gray-800 font-sans">
 
-  <header class="text-center p-12 bg-blue-600 text-white rounded-b-3xl shadow-md">
-    <h1 class="text-4xl font-bold mb-2">Ганна — психолог-консультант</h1>
-    <p class="text-lg">Допомагаю знайти внутрішній спокій, подолати тривожність та відчути підтримку</p>
-    <nav class="mt-4 space-x-4">
-      <a href="#about" class="hover:underline">Знайомство</a>
-      <a href="#services" class="hover:underline">Послуги</a>
-      <a href="#articles" class="hover:underline">Статті</a>
-      <a href="#offer" class="hover:underline">Оферта</a>
-      <a href="#certificates" class="hover:underline">Сертифікати</a>
-      <a href="#pay" class="hover:underline">Оплата</a>
-    </nav>
+  <!-- Header -->
+  <header class="bg-blue-700 text-white p-6 shadow-md">
+    <h1 class="text-3xl font-bold text-center">Ганна – Психолог-консультант</h1>
+    <p class="text-center text-blue-100">Підтримка. Зростання. Розуміння.</p>
   </header>
 
-  <main class="max-w-3xl mx-auto p-6 space-y-12">
-    
-    <section id="about">
-      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Знайомство</h2>
-      <div class="bg-white p-6 rounded-xl shadow">
-        <p>Я — Ганна, сертифікований психолог з 5-річним досвідом. Допомагаю клієнтам знайти баланс, справлятись з тривожністю та будувати здорові стосунки.</p>
-      </div>
-    </section>
+  <!-- Знайомство -->
+  <section class="p-8 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Знайомство</h2>
+    <p>Привіт! Я — Ганна, психолог із 5-річним досвідом. Працюю у напрямках КПТ, гуманістична терапія та ресурсна підтримка.</p>
+  </section>
 
-    <section id="services">
-      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Послуги</h2>
-      <div class="bg-white p-6 rounded-xl shadow">
-        <ul class="list-disc pl-6 space-y-1">
-          <li>Онлайн-консультація (50 хв)</li>
-          <li>Психологічна підтримка</li>
-          <li>Робота з самооцінкою, вигоранням, тривожністю</li>
-        </ul>
-      </div>
-    </section>
+  <!-- Послуги -->
+  <section class="bg-white p-8 max-w-4xl mx-auto shadow rounded-lg my-6">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Послуги</h2>
+    <ul class="list-disc pl-5 space-y-2">
+      <li>Індивідуальні консультації</li>
+      <li>Онлайн-сесії</li>
+      <li>Кризова підтримка</li>
+    </ul>
+  </section>
 
-    <section id="articles">
-      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Цікаві статті</h2>
-      <div class="bg-white p-6 rounded-xl shadow">
-        <ul class="list-disc pl-6">
-          <li><a href="#" class="text-blue-600 hover:underline">Як подолати тривогу</a></li>
-          <li><a href="#" class="text-blue-600 hover:underline">Що таке вигорання</a></li>
-        </ul>
-      </div>
-    </section>
+  <!-- Статті -->
+  <section class="p-8 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Цікаві статті</h2>
+    <p>Тут скоро з’являться мої авторські статті про емоційне здоров'я, стрес і самооцінку.</p>
+  </section>
 
-    <section id="offer">
-      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Договір оферти</h2>
-      <div class="bg-white p-6 rounded-xl shadow">
-        <p>Ознайомтесь із <a href="offer.pdf" class="text-blue-600 underline">договором оферти</a>.</p>
-      </div>
-    </section>
+  <!-- Оферта -->
+  <section class="bg-white p-8 max-w-4xl mx-auto shadow rounded-lg my-6">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Договір оферти</h2>
+    <p><a href="dogovir.pdf" class="text-blue-500 underline">Завантажити PDF</a></p>
+  </section>
 
-    <section id="certificates">
-      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Сертифікати</h2>
-      <div class="bg-white p-6 rounded-xl shadow">
-        <ul class="list-disc pl-6">
-          <li><a href="cert1.pdf" class="text-blue-600 underline">Диплом</a></li>
-          <li><a href="cert2.jpeg" class="text-blue-600 underline">Курс CBT</a></li>
-        </ul>
-      </div>
-    </section>
+  <!-- Сертифікати -->
+  <section class="p-8 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Сертифікати та дипломи</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <img src="cert1.jpg" alt="Сертифікат 1" class="rounded shadow">
+      <img src="cert2.png" alt="Сертифікат 2" class="rounded shadow">
+    </div>
+  </section>
 
-    <section id="pay">
-      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Оплата</h2>
-      <div class="bg-white p-6 rounded-xl shadow text-center">
-        <p>Оплатити консультацію онлайн:</p>
-        <a href="https://your-merchant-link.com" class="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">Оплатити</a>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="text-center text-sm text-gray-500 p-6 mt-12">
-    © 2025 Ганна — психолог. Всі права захищено.
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center p-4 mt-8">
+    <p>&copy; 2025 Ганна – Психолог. Усі права захищено.</p>
   </footer>
 
 </body>
